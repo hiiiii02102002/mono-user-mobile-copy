@@ -1,7 +1,7 @@
 {
     "appId": "io.framework7.myapp",
     "appName": "Mono User",
-    "bundledWebRuntime": false,
+    "bundledWebRuntime": true,
     "npmClient": "npm",
     "webDir": "www",
     "plugins": {
