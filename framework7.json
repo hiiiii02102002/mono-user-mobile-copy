@@ -1,0 +1,20 @@
+{
+    "cwd": "E:\\internship\\mono-user-mobile",
+    "type": ["pwa", "capacitor"],
+    "name": "Mono User",
+    "framework": "react",
+    "template": "tabs",
+    "bundler": "vite",
+    "cssPreProcessor": "scss",
+    "theming": {
+        "customColor": true,
+        "color": "#ea6d22",
+        "darkMode": true,
+        "iconFonts": true
+    },
+    "customBuild": false,
+    "pkg": "io.framework7.myapp",
+    "capacitor": {
+        "platforms": ["ios", "android"]
+    }
+}
