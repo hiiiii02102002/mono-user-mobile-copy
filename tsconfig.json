@@ -2,7 +2,12 @@
     "compilerOptions": {
         "target": "ES2020",
         "useDefineForClassFields": true,
-        "lib": ["ES2020", "DOM", "DOM.Iterable", "ES2021.String"],
+        "lib": [
+            "ES2020",
+            "DOM",
+            "DOM.Iterable",
+            "ES2021.String"
+        ],
         "module": "ESNext",
         "skipLibCheck": true,
         /* Bundler mode */
@@ -18,16 +23,26 @@
         "noUnusedParameters": false,
         "noFallthroughCasesInSwitch": true,
         "paths": {
-            "@/*": ["./src/*"]
+            "@/*": [
+                "./src/*"
+            ]
         },
         "allowJs": true,
-        "types": ["vite/client", "node"]
+        "types": [
+            "vite/client",
+            "node"
+        ],
+        "outDir": "./dist-web",
     },
-    "include": ["src"],
+    "include": [
+        "src"
+    ],
     "references": [
         {
             "path": "./tsconfig.node.json"
         }
     ],
-    "exclude": ["node_modules"]
+    "exclude": [
+        "node_modules"
+    ]
 }
